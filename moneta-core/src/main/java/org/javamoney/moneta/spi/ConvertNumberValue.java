@@ -26,7 +26,7 @@ import java.util.concurrent.atomic.AtomicLong;
 /**
  * Utility for converting numeric types.
  */
-enum ConvertNumberValue {
+public enum ConvertNumberValue {
 	INSTANCE;
 
 	public static <T extends Number> T of(Class<T> numberType, Number number) {
